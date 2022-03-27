@@ -5,11 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trial Portfolio</title>
+
+    <!--Google Fontes-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--DEV icon fontes-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!--CSS do Projeto-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1> meu teste</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Robson Sestrem</h2>
+            <img id="bio-image" src="img/mitsurugi.jpg" alt="Robson Sestrem">
+            <p>Olá, meu nome é Robson e esse é meu <spam class="highlight">Trial Portfolio</spam>.</p>
+            <p id="welcome-text">Seja bem vindo!</p>
+            <ul id="social-container">
+                <li><a href="https://www.linkedin.com/in/robsonperfil" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/?hl=pt-br" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>                
+                <li><a href="https://discord.com/" target="_blank"><ion-icon name="logo-discord"></ion-icon></a></li>                
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:sestrem.robson@gmail.com">sestrem.robson@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Robson Sestrem</h1>
+            <p id="title"><spam class="highlight">Desenvolvedor Full Stack</spam></p>
+            <p class="description">Sou um desenvolvedor blá-blá-blá...</p>
+            <p class="description">Atuo bastante em <spam class="highlight">softwares da área de saúde</spam> blá-blá-blá</p>
+            <a id="btn-projects" href="https://github.com/robsonsestrem" target="_blank"><ion-icon name="share-social-outline"></ion-icon><spam class="btn-text">Meus Repositórios</spam></a>
 
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Conheça as tecnologias vivenciadas por mim:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-css3-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-javascript-plain colored skills-itens"></i>
+                    <i class="devicon-dart-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-markdown-original colored skills-itens"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain-wordmark colored skills-itens"></i>  
+                    <i class="devicon-nodejs-plain-wordmark colored skills-itens"></i>                   
+                    <i class="devicon-csharp-plain-wordmark colored skills-itens"></i>                                     
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>                    
+                    <i class="devicon-microsoftsqlserver-plain-wordmark colored skills-itens"></i>                              
+                    <i class="devicon-postgresql-plain-wordmark colored skills-itens"></i>                              
+                    <i class="devicon-mysql-plain-wordmark colored skills-itens"></i>          
+                    <i class="devicon-mongodb-plain-wordmark colored skills-itens"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <!--<i class="devicon-jsf-plain colored"></i>-->
+                    <!--<i class="devicon-primefaces-plain colored"></i>-->                    
+                    <i class="devicon-bootstrap-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-jquery-plain-wordmark colored skills-itens"></i>  
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end Frameworks</p>
+                    <i class="devicon-spring-plain-wordmark colored skills-itens"></i>                    
+                    <!--<i class="devicon-hibernate-plain colored"></i>-->
+                    <!--<i class="devicon-jpa-plain colored"></i>-->
+                    <i class="devicon-dot-net-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-dotnetcore-plain colored skills-itens"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-git-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-github-original-wordmark skills-itens"></i>
+                    <i class="devicon-gitlab-plain-wordmark colored skills-itens"></i>
+                    <!--<i class="devicon-maven-plain colored"></i>-->
+                    <i class="devicon-flutter-plain colored skills-itens"></i>
+                    <i class="devicon-visualstudio-plain-wordmark skills-itens"></i>
+                    <i class="devicon-webstorm-plain-wordmark skills-itens"></i>
+                    <i class="devicon-xcode-plain colored skills-itens"></i>
+                    <!--<i class="devicon-eclipse-plain colored"></i>-->
+                    <!--<i class="devicon-netbeans-plain colored"></i>-->
+                    <i class="devicon-codepen-plain skills-itens"></i>
+                    <i class="devicon-vscode-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-sourcetree-original-wordmark colored skills-itens"></i>
+                    <i class="devicon-heroku-plain-wordmark colored skills-itens"></i>
+                    <i class="devicon-npm-original-wordmark colored skills-itens"></i>
+                    <i class="devicon-apache-line-wordmark skills-itens"></i>
+                    <i class="devicon-tomcat-line-wordmark colored skills-itens"></i>
+                    <!--<i class="devicon-postman-plain colored"></i>-->
+                    <!--<i class="devicon-soapui-plain colored"></i>-->
+                </div>
+            </div>
 
-</body>
+        </section>
+    </main>
+         
+    <!--Ion Icons-->
+    <!--<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </html>

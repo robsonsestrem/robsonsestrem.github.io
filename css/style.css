@@ -11,14 +11,15 @@
     --main-color: #06b8b9;
     --main-text-color: #FFF;
     --border-color: #999;
-    --bio-bg-color: #1E2A3A;
+    --bio-bg-color: #0e314e;
     --bio-border-color: #293544;
-    --about-bg-color: #111821;
+    --about-bg-color: #151515;
   }
   
   /* General */
   .highlight {
     color: var(--main-color);
+    font-weight: 700 !important;
   }
   
   /* Containers */
@@ -183,7 +184,15 @@
     margin: 10px;
     font-size: 450% !important;
   }
+
+  .skills-icons-img-size01 {
+    max-width: 19%;
+  }
   
+  .skills-icons-img-size02 {
+    max-width: 30%;
+  }
+
   .skills-title {
     font-size: 24px;
     margin-bottom: 25px;
